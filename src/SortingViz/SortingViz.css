@@ -1,0 +1,44 @@
+body {
+    overflow: hidden;
+    background-color: black !important;
+  }
+  
+  .array-container {
+    /* padding-top: 20px; */
+    /* padding-left: 90px; */
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .navbar{
+    margin-top: 0px;
+    
+  }
+
+  .array-bar {
+    transition: all 0.3s ease;
+    width: 2vw;
+    display: inline-block;
+    margin: 0 2px;
+    margin-top: 15px;
+  }
+
+  .array-bar:hover {
+    background-color:gold !important;
+    cursor: cell;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 0s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1380px) {
+    .array-container {
+      bottom: -5px;
+    }
+    .array-bar {
+      width: 2.1vw;
+      margin: 1px;
+    }
+  }
+  
