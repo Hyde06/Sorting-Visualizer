@@ -42,3 +42,12 @@ body {
     }
   }
   
+  @media (min-width: 410px) and (max-width: 520px) {
+    .array-container {
+      bottom: -5px;
+    }
+    .array-bar {
+      width: 1.76vw;
+      margin: 1px;
+    }
+  }
